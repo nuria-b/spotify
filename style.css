@@ -1,0 +1,171 @@
+/* Estructura general */
+*{
+	margin: 0;
+  font-family: g_d0_f2, sans-serif;
+}
+body{
+	height: 100vh;
+	witdh: 100vw;
+	display: flex;
+	flex-direction: column;
+  background-color: #ffffff;
+}
+header{
+  background-color: blue;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main{
+  padding-top: 1em;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+a:visited{
+	color: black;
+}
+
+/* Menú */
+.logo{
+  height: 2.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 1.5em;
+}
+.menu{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  list-style-type: none;
+  font-size: 12px;
+}
+.menu>li{
+  margin-right: 1em;
+}
+
+/* Cabecera */
+.cabecera{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.texto-cabecera>h1{
+  padding-bottom: 0.5em;
+}
+.texto-cabecera>h2{
+  font-weight: normal;
+}
+.texto-cabecera{
+  position: absolute;
+  color: #FFFFFF;
+  top: 9em;
+  margin-left: 4em;
+  margin-right: 4em;
+  text-align: center;
+  margin-bottom: 2em;
+}
+.imgcabecera{
+  width: 100%;
+}
+
+/* Main */
+main>h1, main>h2, .title-section1{
+  margin-left: 4em;
+  margin-right: 4em;
+  text-align: center;
+}
+h1{
+  font-size: 42px;
+}
+h2{
+  font-size: 16px;
+}
+/*
+h3{
+  text-decoration: underline solid #1AB26B;
+}
+*/
+
+/* Secciones */
+.title-section1, .title-section2{
+  font-size: 20px;
+}
+h4{
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  font-size: 16px;
+}
+p{
+  font-size: 13px;
+}
+.section1, .section2{
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-top: 1em;
+}
+
+/* Sección 1 */
+.section1>h3{
+  border-bottom: 0.15em solid #1AB26B;
+  text-align: center;
+  margin-bottom: 2em;
+  width: 20vw;
+  margin-left: 38vh;
+}
+.whatis{
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 0;
+}
+.icon{
+  width: 5em;
+}
+li{
+  text-align: center;
+}
+li>div>h4{
+  color: #1AB26B;
+  display: flex;
+  justify-content: center;
+}
+li>div>p{
+  padding-bottom: 4em;
+}
+
+/* Sección 2 */
+.section2-1>h3{
+  text-align: left;
+  border-bottom: 0.15em solid #FFFFFF;
+  width: 33vw;
+}
+.section2{
+  padding-top: 3em;
+  padding-bottom: 3em;
+  display: flex;
+	justify-content: space-between;
+  background-color: #1AB26B;
+  color: #FFFFFF;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  position: relative;
+}
+.captura{
+  height: 22em;
+  margin-left: 4em;
+}
+.section2-1>p{
+  width: 15em;
+}
+.imagotipo{
+  height: 5em;
+  position: absolute;
+  margin-left: 33vw;
+  margin-top: 18vw;
+}
